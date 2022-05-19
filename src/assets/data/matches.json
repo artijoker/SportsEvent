@@ -1,0 +1,50 @@
+[
+    {
+        "teamNameFirst" : "Bad News Eagles",
+        "teamScoreFirst" : 16,
+        "teamNameSecond" : "Eternal Fire",
+        "teamScoreSecond" : 14
+    },
+    {
+        "teamNameFirst" : "Vitality",
+        "teamScoreFirst" : 16,
+        "teamNameSecond" : "Complexity Gaming",
+        "teamScoreSecond" : 1
+    },
+    {
+        "teamNameFirst" : "G2 Esports",
+        "teamScoreFirst" : 16,
+        "teamNameSecond" : "Team Liquid",
+        "teamScoreSecond" : 6
+    },
+    {
+        "teamNameFirst" : "forZe",
+        "teamScoreFirst" : 16,
+        "teamNameSecond" : "Renegades",
+        "teamScoreSecond" : 9
+    },
+    {
+        "teamNameFirst" : "Astralis",
+        "teamScoreFirst" : 16,
+        "teamNameSecond" : "IHC Esports",
+        "teamScoreSecond" : 2
+    },
+    {
+        "teamNameFirst" : "Imperial",
+        "teamScoreFirst" : 6,
+        "teamNameSecond" : "Spirit",
+        "teamScoreSecond" : 16
+    },
+    {
+        "teamNameFirst" : "Spirit",
+        "teamScoreFirst" : 16,
+        "teamNameSecond" : "Eternal Fire",
+        "teamScoreSecond" : 11
+    },
+    {
+        "teamNameFirst" : "ENCE",
+        "teamScoreFirst" : 14,
+        "teamNameSecond" : "Virtus.pro",
+        "teamScoreSecond" : 16
+    }
+]

@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="d-flex justify-content-center">
+        <div class="text-center align-self-center">
+            <h2 class="h2 m-4 underline">{{title}}</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="carousel slide">
+            <div>
+                <img class="d-block w-100" src="{{urlImage}}" alt="">
+            </div>
+            <div class="carousel-control-prev" (click)="prevImage()">
+                <span class="carousel-control-prev-icon"></span>
+            </div>
+            <div class="carousel-control-next" (click)="nextImage()">
+                <span class="carousel-control-next-icon"></span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="d-flex justify-content-center">
+        <div class="text-center align-self-center">
+            <h2 class="h2 m-4 underline">{{title}}</h2>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <table class="table">
+                <tbody>
+                    <tr *ngFor="let match of matches">
+                        <td class="teamNameFirst align-middle"> {{match.teamNameFirst}}</td>
+                        <th> <span>{{match.teamScoreFirst}} : {{match.teamScoreSecond}}</span></th>
+                        <td class="teamNameSecond">{{match.teamNameSecond}} </td>
+                    </tr>
+                  
+                </tbody>
+              </table>
+        </div>
+
+
+    </div>
+</div>
+

@@ -1,0 +1,26 @@
+p{
+    font-size: 28px;
+}
+th {
+    text-align: center;
+    padding: 15px; 
+ }
+ tr{
+    border-bottom: 0.5px solid black;
+}
+span{
+    font-size: 28px;
+    color: #eb5e12;
+}
+
+ .teamNameFirst{
+     text-align: right;
+     vertical-align: middle!important;
+     font-size: 20px;
+ }
+
+ .teamNameSecond{
+     text-align: left;
+     vertical-align: middle!important;
+     font-size: 20px;
+ }

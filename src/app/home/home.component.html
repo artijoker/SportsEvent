@@ -1,0 +1,69 @@
+<div class="container-fluid">
+    <div class="d-flex justify-content-center">
+        <div class="text-center align-self-center">
+            <h2 class="h2 m-4 underline">{{title}}</h2>
+        </div>
+    </div>
+
+    <div class="row p-5">
+        <div class="col-6">
+            <img src="../../assets/image/logo.jpg" width="85%" />
+        </div>
+        <div class="col mt-3">
+            <div class="mb-4">
+                Серия: <span>{{series}}</span>
+            </div>
+            <div class="mb-4">
+                Локация: <span>{{location}}</span>
+            </div>
+            <div class="mb-4">
+                Сумма призовых: <span>{{prizeFund | currency}}</span>
+            </div>
+            <div class="mb-4">
+                Дата начала: <span>{{startDate | date:"dd/MM/yyyy"}}</span>
+            </div>
+            <div class="">
+                Дата окончания: <span>{{endDate | date:"dd/MM/yyyy"}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="px-5">
+        <p>
+            Это будет первый мейджор в 2022 году. Чемпионом последнего мажора <span>CS:GO</span>
+            является <span>Natus Vincere</span>, ставшая победителем 
+            <span>PGL Major Stockholm 2021</span>.
+
+            Весенний мажор <span>CS:GO</span> 2022 пройдет в городе <span>{{location}}</span>.
+            На чемпионат мира по CSGO отберутся 24 команды,
+            которые разыграют призовой фонд в размере <span>{{prizeFund | currency}}</span> млн.
+            16 коллективов начнут выступление со стадии <span>Challengers</span>.
+            Еще восемь команд стартуют на мейджоре по 
+            <span>CS:GO</span> со стадии <span>Legends</span>.
+        </p>
+        <h4 class="h4 underline mt-3">New Challengers Stage</h4>
+        <p>
+            Первый этап мейджора <span>CS:GO</span> пройдет с 9 по 12 мая. 
+            В следующую стадию пройдут восемь лучших коллективов, остальные участники покинут турнир. 
+            Все матчи, кроме поединков на выбывание или повышение, состоятся в формате 
+            <span>best-of-1</span>. 
+            Подробное расписание <span>PGL Major</span> будет обновляться на этой странице.
+        </p>
+        <h4 class="h4 underline mt-3">New Legends Stage</h4>
+        <p>
+            Второй этап мажора в Бельгии стартует 14 мая и продлится до 17 мая. 
+            Команды, занявшие первые восемь мест получат слоты в плей-офф мажора, 
+            остальные — покинут чемпионат. 
+            Все матчи, кроме поединков на выбывание или повышение, 
+            состоятся в формате <span>best-of-1</span>.
+        </p>
+        <h4 class="h4 underline mt-3">Плей-офф</h4>
+        <p>
+
+            Решающий этап мажора <span>CS:GO</span> пройдет с 19 по 22 мая в формате 
+            <span>Single-Elimination</span>.
+            Все матчи плей-офф будут сыграны 
+            по системе <span>best-of-3</span>.
+        </p>
+    </div>
+
+</div>

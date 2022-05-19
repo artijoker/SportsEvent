@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="d-flex justify-content-center">
+        <div class="text-center align-self-center">
+            <h2 class="h2 m-4 underline">{{title}}</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th>Страна</th>
+                <th>Команда</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of participants">
+                    <th>{{p.id}}</th>
+                    <td>{{p.country}}</td>
+                    <td>{{p.name}}</td>
+                </tr>
+              
+            </tbody>
+          </table>
+    </div>
+    
+</div>
+
+
